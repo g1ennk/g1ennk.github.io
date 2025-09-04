@@ -15,6 +15,7 @@ layout: post
 title: "${today} TIL"
 categories: [ til ]
 tags: [ ]
+description: "Today I Learned"
 ---
 
 ## 1. Todo
