@@ -112,7 +112,8 @@ defaults:
       layout: post
       comments: true
       toc: true
-      permalink: /posts/:title/
+      # Use date components to avoid slug collisions (e.g., multiple `*-til.md` files)
+      permalink: /posts/:year-:month-:day-:title/
   - scope:
       path: ""
       type: tabs
