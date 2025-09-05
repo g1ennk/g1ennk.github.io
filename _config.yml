@@ -68,7 +68,11 @@ toc: true
 
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
-  provider: # [disqus | utterances | giscus]
+  provider: utterances # [disqus | utterances | giscus]
+  utterances:
+    repo: g1ennk/g1ennk.github.io
+    issue_term: pathname
+    label: comments
 
 # Self-hosted static assets, optional
 assets:
