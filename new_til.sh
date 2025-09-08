@@ -28,8 +28,8 @@ cat > "$filename" <<EOF
 ---
 layout: post
 title: "${today} TIL"
- categories: [ til ]
- tags: [ til ]
+categories: [ til ]
+tags: [ til ]
 description: "Today I Learned"
 ---
 
