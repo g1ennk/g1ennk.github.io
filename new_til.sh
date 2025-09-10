@@ -4,7 +4,7 @@ set -euo pipefail
 
 # 스크립트 위치를 기준으로 저장 경로 고정 (어디서 실행해도 동작)
 script_dir="$(cd "$(dirname "$0")" && pwd)"
-posts_dir="$script_dir/_posts"
+posts_dir="$script_dir/_posts/til"
 
 today=$(date +"%Y-%m-%d")
 filename="$posts_dir/${today}-til.md"
@@ -31,6 +31,7 @@ title: "${today} TIL"
 categories: [ til ]
 tags: [ til ]
 description: "Today I Learned"
+published: false
 ---
 
 ## 1. Todo
