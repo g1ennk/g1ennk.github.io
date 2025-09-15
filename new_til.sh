@@ -31,7 +31,7 @@ title: "${today} TIL"
 categories: [ til ]
 tags: [ til ]
 description: "Today I Learned"
-published: false
+published: true
 ---
 
 ## 1. Todo
