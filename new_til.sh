@@ -31,19 +31,12 @@ title: "${today} TIL"
 categories: [ til ]
 tags: [ til ]
 description: "Today I Learned"
-published: true
+published: false
 ---
 
 ## 1. Todo
 
-### Day 1
-- [ ]
-
-### Day 2
-- [ ]
-
-### Day 3
-- [ ]
+- [ ] ()[]
 
 ---
 
