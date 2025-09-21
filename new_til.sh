@@ -34,13 +34,22 @@ description: "Today I Learned"
 published: false
 ---
 
-## 1. Todo
+### 0. Preview
 
-- [ ] ()[]
+오늘 하루를 시작하는 소감을 자유롭게 작성합니다.
 
 ---
 
-## 2. Retrospective
+### 1. Todo
+
+---
+
+- [ ] [CATEGORY] [TODO](LINK)
+
+### 2. Retrospective
+
+---
+
 오늘 하루를 돌아보는 회고를 자유롭게 작성합니다.
 EOF
 
