@@ -25,15 +25,6 @@ if [ -f "$filename" ]; then
 fi
 
 cat > "$filename" <<EOF
----
-layout: post
-title: "${today} TIL"
-categories: [ til ]
-tags: [ til ]
-description: "Today I Learned"
-published: false
----
-
 ### 0. Preview
 
 오늘 하루를 시작하는 소감을 자유롭게 작성합니다.
@@ -44,7 +35,7 @@ published: false
 
 ---
 
-- [ ] [CATEGORY] [TODO](LINK)
+- [ ] [CATEGORY] [TODO]()
 
 ### 2. Retrospective
 
